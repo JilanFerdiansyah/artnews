@@ -1,0 +1,49 @@
+@font-face {
+    font-family: MadeMirage Bold;
+    font-weight: bold;
+    src: url("./asset/fonts/MADEMirageBold.otf") format("opentype");
+}
+@font-face {
+    font-family: MadeMirage Thin;
+    font-weight: thin;
+    src: url("./asset/fonts/MADEMirageThin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: MadeMirage;
+    src: url("./asset/fonts/MADEMirageRegular.otf") format("opentype");
+}
+@font-face {
+    font-family: MadeMirage Black;
+    font-weight: black;
+    src: url("./asset/fonts/MADEMirageBlack.otf") format("opentype");
+}
+@font-face {
+    font-family: MadeMirage Medium;
+    font-weight: medium;
+    src: url("./asset/fonts/MADEMirageMedium.otf") format("opentype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+	font-family: MadeMirage;	
+}
+
+.lato{
+	font-family: Lato;
+}
+.made-medium{
+	font-family: MadeMirage Medium;
+}
+
+.made-bold{
+	font-family: MadeMirage Bold;
+}
+
+.made-thin{
+	font-family: MadeMirage thin;
+}
+
+.made-black{
+	font-family: MadeMirage Black;
+}
